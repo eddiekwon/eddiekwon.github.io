@@ -8,15 +8,15 @@ typora-copy-images-to: ../images
 
 새 레포지토리를 생성
 
-![AFDD42E9-B207-49D0-9914-15B12E396269](/Users/eddiek/Documents/ever8greener.github.io/images/AFDD42E9-B207-49D0-9914-15B12E396269.png)
+![AFDD42E9-B207-49D0-9914-15B12E396269](/images/AFDD42E9-B207-49D0-9914-15B12E396269.png)
 
 다음
 
-![D997327A-1C1A-42CF-AA94-8CE29E1D351E](/Users/eddiek/Documents/ever8greener.github.io/images/D997327A-1C1A-42CF-AA94-8CE29E1D351E.png)
+![D997327A-1C1A-42CF-AA94-8CE29E1D351E](/images/D997327A-1C1A-42CF-AA94-8CE29E1D351E.png)
 
 Create repository를 해주고나면 준비가 되었다는 페이지로 이동됩니다.
 
-![9898E56C-C00F-4B94-B78D-B2555C144097](/Users/eddiek/Documents/ever8greener.github.io/images/9898E56C-C00F-4B94-B78D-B2555C144097.png)
+![9898E56C-C00F-4B94-B78D-B2555C144097](/images/9898E56C-C00F-4B94-B78D-B2555C144097.png)
 
 그다음 다음 명령오로 git 에 푸시합니다.
 
@@ -63,6 +63,6 @@ eddiek@ek.local:/Users/eddiek/Documents/helloGithub  git:(master) $
 
 이제 github으로 가서 웹페이지를 새로고침해보면 hello.swift가 올라온 것이 보입니다.
 
-![1769BF94-03FE-479F-AAF4-26304C719186](/Users/eddiek/Documents/ever8greener.github.io/images/1769BF94-03FE-479F-AAF4-26304C719186.png)
+![1769BF94-03FE-479F-AAF4-26304C719186](/images/1769BF94-03FE-479F-AAF4-26304C719186.png)
 
 이상입니다.
