@@ -11,13 +11,11 @@ permalink: /swift/:year/:month/:day/:title/
 
 safe Area 를 쓴 것과 안 쓴 것의 차이점을 그림으로 이해해봅시다.
 
+다음 그림은 `superView` 로 부터 inset을 설정했을 때와 `safeArea`를 적용했을 때 화면을 캡쳐한 것입니다.
+
+![InsetOftabbarFromSafeArea](/images/Swift/tabbarInset.png)
+
 두 이미지을 볼 때 Tabbar 아래로 text가 가려지거나 보이거나 하는 차이점이 있습니다.
 
-아래는 `safeArea`를 적용했을 때 모습입니다.
-
-![InsetOftabbarFromSafeArea](/images/Swift/InsetOftabbarFromSafeArea.png)
-
-다음 그림은 superView 로 부터 inset을 정했을 때의 모습입니다.
-
-![InsetOftabbarFromSuperView](/images/Swift/InsetOftabbarFromSuperView.png)
+ 
 
