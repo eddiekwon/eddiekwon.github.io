@@ -46,7 +46,7 @@ nav:
     - { Categories: '/blog/categories/' }
     - { Python: '/blog/categories/#python' }
     - { Machine Learning: '/blog/categories/#ML' }
-    - { swift: '/blog/categories/#swift' }
+    - { Swift: '/blog/categories/#swift' }
     - { iOS: '/blog/categories/#iOS' }
     - { algorithm: '/blog/categories/#algorithm' }
     - { git: '/blog/categories/#git' }
