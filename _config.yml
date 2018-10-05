@@ -1,0 +1,75 @@
+# Site Info
+title: eddie's development log
+tagline: eddies
+description: '개발과 삶 모든 것'
+#baseurl: "/lanyon"
+baseurl: ""
+url: https://eddiekwon.github.io
+logo: '/public/cubic-min.png'
+
+# Site configurations
+gems:
+  - jekyll-paginate
+markdown: kramdown
+kramdown:
+  input: GFM
+excerpt_separator: "<!-- more -->"
+sass:
+  style: compressed
+  sass_dir: _scss    
+paginate: 5
+paginate_path: '/blog/page:num'
+permalink: pretty
+
+version: 1.0.0
+
+# About/contact
+author:
+  name: Eddie Kwon
+  description: How to <strong>Code and .....</strong>
+#  gravatar: 3c2986ad7ac1f2230ea3596f44563328 # md5 hash of your email address
+  contact:
+    # linkedin:  https://www.linkedin.com/in/ever8greener
+    github:    https://github.com/eddiekwon
+    # facebook:  <hide>
+    twitter:   https://twitter.com/ever8greener
+    # weibo:     
+   # email:     http://www.google.com/recaptcha/mailhide/d?k=01I3lZFiZYng9N3QxYEtsDaQ==&c=31wAnZkuKqcG0ATAqJN8Z3ln5kkYLA9TwkGc-IbygpM=
+
+# Navigation (2nd level links supported)
+nav:
+  Home:           
+#    - '/'
+    - '/blog/'
+  Categories:           
+    - '/blog/'
+    - { Categories: '/blog/categories/' }
+    - { Python: '/blog/categories/#python' }
+    - { Machine Learning: '/blog/categories/#ML' }
+    - { swift: '/blog/categories/#swift' }
+    - { iOS: '/blog/categories/#iOS' }
+    - { algorithm: '/blog/categories/#algorithm' }
+    - { git: '/blog/categories/#git' }
+    - { etc: '/blog/categories/#etc' }
+    - { Tags: '/blog/tags/' }  
+  About:          
+    - '/about/'
+  Github Project: 
+    - 'http://eddiekwon.github.io/'
+
+# Where are tags and categories displayed
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'
+
+# hero:
+#   image: /public/img/we_will_be_giants_by_yalestewart.jpg
+#   caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
+
+# Puglins
+mathjax: true # whether support mathjax
+google_analytics_token: 'UA-127032747-1' # leave blank if you don't want google analytics
+disqus_short_name: 'eddiekwons-swift-python-ml-blog' # leave blank if you don't want disqus
+
+# Use the following plug-ins
+gems:
+  - jekyll-paginate
