@@ -8,7 +8,8 @@ tags: [git]
 comments: true
 date: 2018-10-11 21:41:00 +0900
 ---
- 
+
+[죄송합니다. 편집중인 문서입니다.]
 
 먼저 새로운 브랜치를 만들고 체크아웃을 동시에 합니다. `-b`명령어를 사용합니다.
 
@@ -44,4 +45,7 @@ To https://mygit.xxxx.com/scm/depdev/dep-ios-app.git
  
 ```
 
-끝입니다.!!
+이제 `helloBranch` 를 `release/develop`로 머지시켜야 합니다.
+이 작업은 ....
+
+...추가로 작업예정.
