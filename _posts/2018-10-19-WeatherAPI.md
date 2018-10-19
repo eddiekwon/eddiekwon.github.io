@@ -29,7 +29,6 @@ typora-copy-images-to: ./2018-10-19-WeatherAPI
 모두 최근 24시간 내 자료이며 api 는 아래 문자열로 시작합니다.
 
 - getForecastGrib   초단기실황조회
-
 - getForecastTimeData   초단기예보조회
 - getForecastSpaceData   동네예보조회
 - getForecastVersionCheck    예보버전조회
@@ -37,7 +36,7 @@ typora-copy-images-to: ./2018-10-19-WeatherAPI
 
 
 ## API인자 설명
-
+```
 스크롤을 밑으로 내려 테스트를 해봅니다.
 실맹을 눌러 요청변수창을 띄운 뒤 각 값을 넣어줍니다.
 ServiceKey : 위에서 받은 일반 인증키
@@ -48,6 +47,7 @@ ny : 예보지점 y좌표값(같이 제공되는 엑셀에서 확인 가능합�
 numOfRows : 한 페이지 결과 수(높으면 많은 값이 한번에 옵니다.)
 pageNo : 페이지 번호입니다.
 _type : 받는 값입니다. 기본은 xml이나 json이 조금 더 편해서 json으로 받습니다.
+```
 [출처] 메이크쉐어 - http://makeshare.org/bbs/board.php?bo_table=raspberrypi&wr_id=63
 
 # 도움 주는 사이트
@@ -58,8 +58,8 @@ http://makeshare.org/bbs/board.php?bo_table=raspberrypi&wr_id=63
 ### 기상청 날씨정보 API(동네예보정보조회서비스) 활용을 위한 행정동코드 작업과 날씨조회
 
 기상청에서 날씨데이터를 받아 사용하는 방법은 2가지로 볼 수 있다
-1 기상청 사이트의 RSS 를 이용
-2 공공데이터 포탈 사이트의 동네예보 정보조회 서비스(API)
+1. 기상청 사이트의 RSS 를 이용
+2. 공공데이터 포탈 사이트의 동네예보 정보조회 서비스(API)
 
 출처: http://zelkun.tistory.com/entry/기상청-날씨정보-API동네예보정보조회서비스-활용을-위한-행정동코드-작업과-날씨조회 [Tsunami]
 
@@ -142,7 +142,7 @@ open api 문서를 읽어보면 3시간 단위로 예보가 업데이트 됨을 
 
 날씨얻기 위한 행정코드에 대한 이해
 
-![56DADB2E-4BB5-4067-8732-8B602B84573F](./2018-10-19-WeatherAPI/56DADB2E-4BB5-4067-8732-8B602B84573F.png)
+![56DADB2E-4BB5-4067-8732-8B602B84573F](/images/2018-10-19-WeatherAPI/56DADB2E-4BB5-4067-8732-8B602B84573F.png)
 
 >따라서 서울특별시 서초구 반포1동의 지역코드를 얻기 위해서는 아래와 같이 3단계를 거치면된다.
 
