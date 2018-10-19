@@ -1,7 +1,12 @@
 ---
+layout: post
+title: 무작정 github에 파일을 올려보기.
+date: 2018-10-03 21:42:01 +0900
+category: git
+comments: true
+permalink: /git/:year/:month/:day/:title/
 typora-copy-images-to: ../images
 ---
-
 
 
 제목: 무작정 github에 파일을 올려보기.
