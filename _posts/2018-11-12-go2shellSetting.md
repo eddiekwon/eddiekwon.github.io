@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  go2Shell 환경설장
+title:  go2Shell 환경설정
 category: tip
 permalink: /tip/:year/:month/:day/:title/
 

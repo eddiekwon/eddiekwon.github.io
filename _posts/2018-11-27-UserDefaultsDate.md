@@ -34,9 +34,9 @@ let yesterday =  Calendar.current.date(byAdding: .day, value: -1, to: today)!
 let thedbyesterday = Calendar.current.date(byAdding: .day, value: -2, to: today)!
 ```
 
-모델 필터링하기 - 어제 오늘 그제중 하나라면 모델 데이터에서 제거하기
+## 모델 필터링하기 - 어제 오늘 그제중 하나라면 모델 데이터에서 제거하기
 
-가정 uploadModel에 startTime, endTime 이라는 Date? 속성이 있다고 가정.
+`가정 uploadModel에 startTime, endTime 이라는 Date? 속성이 있다고 가정.`
 
 ```swift
 let today = Calendar.current.startOfDay(for: Date())
@@ -64,6 +64,4 @@ uploadViewModel.readings = uploadViewModel.readings?.filter({ ( uploadModel) -> 
 
 ```
 
-
-
-![img](https://i.stack.imgur.com/4uhWz.png)
+ 
