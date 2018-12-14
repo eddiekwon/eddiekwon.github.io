@@ -32,7 +32,7 @@ However for some reason the result printed so ugly as below:
 
 ```json
 ======================== Header ========================
-Optional("{\n  \"Date\" : \"Mon, 12 Nov 2018 08:09:58 GMT\",\n  \"Access-Control-Allow-Origin\" : \"*\",\n  \"Content-Type\" : \"application\\/json; charset=utf-8\",\n  \"Access-Control-Allow-Methods\" : \"GET, POST\",\n  \"Server\" : \"openresty\",\n  \"Access-Control-Allow-Credentials\" : \"true\",\n  \"Content-Length\" : \"40\",\n  \"Connection\" : \"keep-alive\",\n  \"X-Cache-Key\" : \"\\/data\\/2.5\\/weather?APPID=2a6e5a8a3e3d92e541d0323dc7279961&q=seo%20ul\"\n}")
+Optional("{\n  \"Date\" : \"Mon, 12 Nov 2018 08:09:58 GMT\",\n  \"Access-Control-Allow-Origin\" : \"*\",\n  \"Content-Type\" : \"application\\/json; charset=utf-8\",\n  \"Access-Control-Allow-Methods\" : \"GET, POST\",\n  \"Server\" : \"openresty\",\n  \"Access-Control-Allow-Credentials\" : \"true\",\n  \"Content-Length\" : \"40\",\n  \"Connection\" : \"keep-alive\",\n  \"X-Cache-Key\" : \"\\/data\\/2.5\\/weather?APPID=2a6e5a8a3e3d92e541d0323dc3459961&q=seo%20ul\"\n}")
 ```
 As you can see. The result is composed of just one line of long string.
 

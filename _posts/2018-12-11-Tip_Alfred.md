@@ -9,7 +9,7 @@ comments: true
 date: 2018-12-11 08:11:10 +0900
 typora-copy-images-to: ../images/2018-12-11-Tip_Alfred
 ---
-##Alfred Tip for file searching and etc.
+## Alfred Tip for file searching and etc.
 
 `Alfred` 를 쓰면서 몰랐던 사실!!!입니다.ㅜㅜ
 
